@@ -1,0 +1,61 @@
+baseurl = "/"
+languageCode = "en-us"
+defaultLanguageContent = "en-us
+title = "The lore and habits of the Effinghamburgher"
+theme = "effingtheme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+  sidebarBehavior = 1
+  thumbnailImage = true
+  thumbnailImagePosition = "right"
+  autoThumbnailImage = true
+  coverImage = "images/cover.jpg"
+  favicon = /favicon.png
+  imageGallery = true
+  hierarchicalCategories = true
+  syntaxHighlighter = 'highlight.js'
+
+[permalinks]
+    post = "/:year/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/Effinghamburghers"
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/rstudio"
+
+[params]
+    description = "A website devoted to the folks of Beautiful and Glorious Effingham"
+
+    dateFormat = "2 January 2006"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+[Author]
+    name = "BurgherMeister MeisterBurgher"
+    bio = "Just another Effing Peon"
+    job = "Truth-telling"
+    location = "Effingham, New Hampshire"

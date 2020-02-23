@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-defaultLanguageContent = "en-us
+defaultLanguageContent = "en-us"
 title = "The lore and habits of the Effinghamburgher"
 theme = "effingtheme"
 googleAnalytics = ""

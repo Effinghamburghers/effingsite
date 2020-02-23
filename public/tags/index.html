@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="generator" content="Hugo 0.64.1 with theme Tranquilpeak 0.4.7-BETA">
-<meta name="author" content="">
+<meta name="author" content="BurgherMeister MeisterBurgher">
 <meta name="keywords" content="">
 <meta name="description" content="A website devoted to the folks of Beautiful and Glorious Effingham">
 
@@ -65,7 +65,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="">
+      <header id="header" data-behavior="1">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="/">The lore and habits of the Effinghamburgher</a>
@@ -73,7 +73,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="">
+      <nav id="sidebar" data-behavior="1">
   <div class="sidebar-container">
     
     <ul class="sidebar-buttons">
@@ -123,7 +123,7 @@
 
       
 
-      <div id="main" data-behavior=""
+      <div id="main" data-behavior="1"
         class="
                hasCoverMetaIn
                ">
@@ -163,11 +163,16 @@
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/2015/07/23/hello-r-markdown/">
+                        <a class="archive-post-title" href="/2015/hello-r-markdown/">
                           Hello R Markdown
                         </a>
                         <span class="archive-post-date"> - 
-   23, 2015
+  
+  
+  
+  
+    23  2015
+  
 </span>
                       </li>
                     
@@ -183,11 +188,16 @@
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/2015/07/23/hello-r-markdown/">
+                        <a class="archive-post-title" href="/2015/hello-r-markdown/">
                           Hello R Markdown
                         </a>
                         <span class="archive-post-date"> - 
-   23, 2015
+  
+  
+  
+  
+    23  2015
+  
 </span>
                       </li>
                     
@@ -203,11 +213,16 @@
                   <ul class="archive-posts">
                     
                       <li class="archive-post">
-                        <a class="archive-post-title" href="/2015/07/23/hello-r-markdown/">
+                        <a class="archive-post-title" href="/2015/hello-r-markdown/">
                           Hello R Markdown
                         </a>
                         <span class="archive-post-date"> - 
-   23, 2015
+  
+  
+  
+  
+    23  2015
+  
 </span>
                       </li>
                     
@@ -218,7 +233,7 @@
          </div>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
-    &copy; 2020 The lore and habits of the Effinghamburgher. 
+    &copy; 2020 BurgherMeister MeisterBurgher. 
   </span>
 </footer>
 
@@ -230,18 +245,40 @@
       <i class="fa fa-remove"></i>
     </div>
     
-    <h4 id="about-card-name"></h4>
+    <h4 id="about-card-name">BurgherMeister MeisterBurgher</h4>
+    
+      <div id="about-card-bio">Just another Effing Peon</div>
     
     
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Truth-telling
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Effingham, New Hampshire
+      </div>
     
   </div>
 </div>
 
     
+  
+    
+      <div id="cover" style="background-image:url('/images/cover.jpg');"></div>
+    
+  
+
 
   </body>
   
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
 
@@ -262,6 +299,18 @@ function updateMinWidth() {
   var w3 = getComputedStyle(sidebar).getPropertyValue("left");
   main.style.minWidth = `calc(${w1} - ${w2} - ${w3})`;
 }
+</script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
 </script>
 
 

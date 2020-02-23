@@ -7,16 +7,6 @@ googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[params]
-  sidebarBehavior = 1
-  thumbnailImage = true
-  thumbnailImagePosition = "right"
-  autoThumbnailImage = true
-  coverImage = "images/cover.jpg"
-  favicon = /favicon.png
-  imageGallery = true
-  hierarchicalCategories = true
-  syntaxHighlighter = 'highlight.js'
 
 [permalinks]
     post = "/:year/:slug/"
@@ -47,6 +37,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
     # path to the favicon, under "static"
     favicon = "favicon.ico"
+    sidebarBehavior = 1
+    thumbnailImage = true
+    thumbnailImagePosition = "right"
+    autoThumbnailImage = true
+    coverImage = "images/cover.jpg"
+#  favicon = /favicon.png
+    imageGallery = true
+    hierarchicalCategories = true
+    syntaxHighlighter = 'highlight.js'
+
 
     [params.logo]
     url = "logo.png"

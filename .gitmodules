@@ -1,0 +1,4 @@
+[submodule "themes/effingtheme"]
+	path = themes/effingtheme
+	url = https://github.com/Effinghamburghers/effing-theme.git
+	branch = master

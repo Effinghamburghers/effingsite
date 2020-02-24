@@ -2,3 +2,6 @@
 	path = themes/effingtheme
 	url = https://github.com/Effinghamburghers/effing-theme.git
 	branch = master
+[submodule "public"]
+	path = public
+	url = https://github.com/Effinghamburghers/Effinghamburghers.github.io.git

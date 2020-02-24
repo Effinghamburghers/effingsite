@@ -3,12 +3,12 @@ title: Chief Timothy Butts
 author: ~
 date: '2020-02-24'
 slug: chief-timothy-butts
-categories: ["crooked-cops"]
-tags: ["racist"]
+categories: ["chief-Butts"]
+tags: ["racist", "corrupt"]
 keywords:
   - police
 ---
 
 
-{{< yt 9-bO8imDdhQ 1994 >}}
+{{< youtube 9-bO8imDdhQ >}}
 <!--more-->

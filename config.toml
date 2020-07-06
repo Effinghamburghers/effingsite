@@ -1,9 +1,9 @@
 baseurl = "/"
 languageCode = "en-us"
 defaultLanguageContent = "en-us"
-title = "The lore and habits of the Effinghamburgher"
+title = "Effinghamburgher Whine"
 theme = "effingtheme"
-googleAnalytics = ""
+googleAnalytics = "UA-68379379-1"
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 

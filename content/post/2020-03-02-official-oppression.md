@@ -3,7 +3,7 @@ title: Official Oppression
 author: ~
 date: '2020-03-02'
 slug: official-oppression
-categories: ["Officials"]
+categories: ["Officials","Cahalane"]
 tags: ["selectmen","Cahalane","oppression","corruption"]
 keywords:
   - BOS Cahalane Intrusion
